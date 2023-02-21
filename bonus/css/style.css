@@ -28,7 +28,7 @@ h1{
    
     font-size: 50px;
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 10px 15px;
     animation: rainbow 3s linear infinite;
     border: 5px solid rgb(255, 89, 0);
@@ -60,11 +60,34 @@ h1{
 
 }
 
+#wow{
+    background-color: rgba(255,255,255,0);
+    color:rgb(251, 255, 0);
+    font-size: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    animation: bigger 2s linear 1, spin 2s linear 1;
+    /* animation: spin 2s linear 1; */
+}
+
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+@keyframes bigger{
+    0%{font-size: 0px;}
+    100%{font-size: 50px;}
+    0%{font-size: 0px;}
+    
+}
+
 #suggestion{
     color:whitesmoke;
     font-size: 12px;
     display: inline-block;
-    margin-top: 300px;
+    margin-top: 180px;
     padding: 5px;
     border: 5px solid rgb(4, 255, 0);
     border-radius: 2px;
