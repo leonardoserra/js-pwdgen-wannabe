@@ -72,8 +72,9 @@ h1{
     font-size: 50px;
     margin-top: 50px;
     display: inline-block;
-    animation: bigger 2s linear 1, spin 2s linear 1;
-    /* animation: spin 2s linear 1; */
+    animation: bigger 5s linear 1, spin 5s linear 1;
+    
+    
 }
 
 @keyframes spin{
