@@ -7,21 +7,27 @@
 }
 
 body{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80b91575-9a00-40a1-8918-451cd2eec7aa/d4mldjp-7201cc1f-3226-473b-836a-cb9c0c55a50d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgwYjkxNTc1LTlhMDAtNDBhMS04OTE4LTQ1MWNkMmVlYzdhYVwvZDRtbGRqcC03MjAxY2MxZi0zMjI2LTQ3M2ItODM2YS1jYjljMGM1NWE1MGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.veCw3_i4qI56US_QaNjncx9QxD4h2vxJ-Q6rS7L7GmE);
+    background-image: url(../../img/bgkeygen.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    height: calc(100vh - 65px);
+    
 }
 
 .container{
     text-align: center;
     max-width: 1070px;
     margin: auto;
+    height: 100%;
 }
 
 h1{
+    margin-top: 65px;
     background-color: rgba(255,255,255,0);
-    margin-top: 70px;
+   
     color: aquamarine;
+    font-size: 45px;
 }
 
 #gen-pwd {
@@ -87,7 +93,10 @@ h1{
     color:whitesmoke;
     font-size: 12px;
     display: inline-block;
-    margin-top: 180px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
     padding: 5px;
     border: 5px solid rgb(4, 255, 0);
     border-radius: 2px;
